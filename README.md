@@ -21,4 +21,4 @@ It fetch the <b>weather forecast data from API of user entered city.</b><hr>
 <li>LIVE news</li>
 <li>Video</li>
 <li>About us Page </li></ul><br>
-<h1>Project developed Jaidev singh And Amit soni </h1>
+<h1>Project developed by Jaidev singh And Amit soni </h1>
