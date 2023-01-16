@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<style> 
+body{
+  background:black
+}
+</style>
+
+<body>
+  <!-- Navbar code -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+    <a style="font: weight -100px;font-family: 'Trebuchet MS', sans-serif;font-size:22px;" class="navbar-brand" href="index.html">
+        <img src="static/i1.jpg" width="30" height="30" class="d-inline-block align-" alt="">
+        Weather app
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="homeapp.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"aria-expanded="false">
+                    Live
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="video.html">Video</a></li>
+                    <li><a class="dropdown-item" href="news.html">News</a></li>
+                </ul>
+                <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Around the Annalect
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="gurugram.html" target="_blank">Gurugram</a></li>
+                    <li><a class="dropdown-item" href="bangalore.html" target="_blank">Bangalore</a></li>
+                    <li><a class="dropdown-item" href="hyderabad.html" target="_blank">Hyderabad</a></li>
+                    <li><a class="dropdown-item" href="pune.html" target="_blank">Pune</a></li>
+                </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About this App</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<h1 style="color:orange"><marquee behavior="" direction=""><i><u>LIVE</u></i> - <i>The subsidence zone of Joshimath sank 5.4cm in 12 days between December 2020 and January 2023, while it recorded 9cm in seven months between April and November 2022.</i></marquee></h1>
+  <div class="container-fluid  px-0">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="static/n1.webp" height="550"  class="d-block w-100" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Welcome to the  Weather News</h1>
+            <h4>We combine weather data</h4>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="static/n2.jpg" height="550" class="d-block w-100" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Weather around the America</h1>
+            <h4>Heavy Heat Wave </h4>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="static/n3.webp" height="550" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Weather Graph</h1>
+            <h4>Temperature Fluctuation</h4>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="album  bg-dark">
+    <div class="container my-3">
+      <h1 class="my-4 text-center" style="color:orangered;">Short Quick News</h1>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="static/c1.jpg" class="d-block w-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text">At least 26 people have been killed in floods in southern India after heavy rains caused rivers to overflow, cutting off towns and villages.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="static/c2.jpg" class="d-block w-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text">Nine people have been killed in a landslide in the northern Indian state of Himachal Pradesh after boulders fell and hit a vehicle they were travelling in..</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="static/c3.jpg" class="d-block w-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text">Residents in southern Queensland are on high alert as major floods inundate towns.Two people lost their lives this week when their vehicles were swept away by</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="static/c4.jpg" class="d-block w-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text">A prolonged heat wave is gripping the Northeast, with heat index values near 100 degrees Monday in major cities like Washington DC.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="static/c5.webp" class="d-block w-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text">Perth and large parts of Western Australia are expected to swelter through yet another scorching summer, with the chance of record-breaking heat.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="static/c6.avif" class="d-block w-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text">Beware tourists, longest rain and snow spell in Kashmir, Himachal and Uttarakhand poses avalanche threat during this week,with the chance of record-breaking.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
